@@ -1,0 +1,3 @@
+# Swift Reduce Function Unexpected Behavior
+
+This repository demonstrates a subtle issue that can arise when using the `reduce` function in Swift. The code in `bug.swift` shows a seemingly simple use case, but can lead to unexpected behavior depending on the context and data types involved. The solution provided in `bugSolution.swift` illustrates a more robust approach to avoid such issues.  This issue is less about a syntax error and more about understanding the implications of type inference and how `reduce` handles different data types and initial values.
